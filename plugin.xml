@@ -1,0 +1,17 @@
+<plugin name='jsmin-js-minifier' version='0.1' grailsVersion='1.2 &gt; *'>
+  <author>Igor E. Poteryaev</author>
+  <authorEmail>igor.poteryaev@gmail.com</authorEmail>
+  <title>JSMin Javascript resources minifier</title>
+  <description>Grails plugin for javascript resources minification using JSMin library.
+</description>
+  <documentation>http://grails.org/plugin/jsmin-js-minifier</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>org.grails.plugins.resources.MinifyResourceMapper</resource>
+  </resources>
+  <dependencies>
+    <plugin name='resources' version='1.0-RC1b &gt; *' />
+  </dependencies>
+  <behavior />
+</plugin>
