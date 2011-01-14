@@ -18,12 +18,10 @@ class JsminJsMinifierGrailsPlugin {
             "web-app/**"
     ]
 
-    // TODO Fill in these fields
     def author = "Igor E. Poteryaev"
     def authorEmail = "igor.poteryaev@gmail.com"
     def title = "JSMin Javascript resources minifier"
-    def description = '''Grails plugin for javascript resources minification using JSMin library.
-'''
+    def description = '''Grails plugin for javascript resources minification using JSMin library.'''
 
     // URL to the plugin's documentation
     def documentation = "http://grails.org/plugin/jsmin-js-minifier"
